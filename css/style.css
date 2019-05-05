@@ -1,0 +1,16 @@
+body
+{
+	color: gray;
+}
+
+.container
+{
+	width: 800px;
+	display: block;
+	margin: 0 auto;
+}
+
+#header
+{
+	margin-bottom: 100px;
+}
