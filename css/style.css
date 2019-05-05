@@ -1,16 +1,89 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+html, body 
+{
+    height:100%;
+}
+
 body
 {
+	font-family: lato-light;
 	color: gray;
 }
 
 .container
 {
+	min-height: 100%;
 	width: 800px;
 	display: block;
 	margin: 0 auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #header
 {
-	margin-bottom: 100px;
+	padding: 30px;
+	border-bottom: 1px solid gray;
+}
+
+#content
+{
+	padding: 30px;
+}
+
+.section
+{
+	margin-bottom: 40px;
+}
+
+.category-label
+{
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+.projects-list
+{
+	list-style: none;
+}
+
+.project > *
+{
+	padding: 5px 0 5px 0;
+}
+
+.project .title
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.project .description
+{
+	
+}
+	
+.projects-list li
+{
+	padding: 10px;
+}
+
+.header-note
+{
+	float: left;
+}
+
+.github-link
+{
+	float: right;
+}
+
+@font-face 
+{
+  font-family: lato-light;
+  src: url(../fonts/Lato-Light.ttf);
 }
