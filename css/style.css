@@ -38,12 +38,15 @@ body
 .section
 {
 	margin-bottom: 40px;
+    padding: 10px;
 }
 
 .category-label
 {
 	font-size: 23px;
 	margin-bottom: 10px;
+    width: 20%;
+    border-bottom: 1px solid gray;
 }
 
 .projects-list
@@ -56,6 +59,16 @@ body
 	padding: 5px 0 5px 0;
 }
 
+.project .links > *
+{
+	padding: 0 5px 0 0;
+}
+
+.project 
+{
+    margin-bottom: 40px;
+}
+
 .project .title
 {
 	font-weight: bold;
@@ -65,11 +78,6 @@ body
 .project .description
 {
 	
-}
-	
-.projects-list li
-{
-	padding: 10px;
 }
 
 .header-note
