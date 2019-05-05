@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $.getJSON("./data/projects.json", function(data) {
+    $.getJSON("https://devdood.github.io/portfolio/data/projects.json", function(data) {
         console.log(data.projects);
         var items = [];
         $.each(data.projects, function(key, val) {
