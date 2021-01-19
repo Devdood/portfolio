@@ -1,0 +1,182 @@
+{
+    "projects":[
+		{
+            "title":"Clone Drone in the Danger Zone",
+			"role":"Developer (Performance)",
+			"img":"https://steamcdn-a.akamaihd.net/steam/apps/597170/capsule_616x353.jpg?t=1572381822",
+            "description":"A 3rd person sword fighting game which I worked on in The Knights of Unity as a Developer.",
+            "links":
+            [
+                { 
+                    "title":"Steam", 
+                    "link":"https://store.steampowered.com/app/597170/Clone_Drone_in_the_Danger_Zone/"
+                }
+            ]
+        },
+		{
+            "title":"Disco Elysium",
+			"role":"Developer (UI)",
+			"img":"https://cdn.cloudflare.steamstatic.com/steam/apps/632470/header.jpg?t=1608653588",
+            "description":"RPG Game for PC published on steam. I worked on it in The Knights of Unity as a Developer.",
+            "links":
+            [
+                { 
+                    "title":"Steam", 
+                    "link":"https://store.steampowered.com/app/632470/Disco_Elysium/"
+                }
+            ]
+        },
+		{
+            "title":"3D Mechanic Simulator",
+			"role":"Developer",
+			"img":"assets/img/3dmechanic.png",
+            "description":"A mechanical objects creation simulator for PC.",
+            "links":
+            [
+                { 
+                    "title":"Project Overview", 
+                    "link":"https://www.theknightsofunity.com/project/3d-mechanic"
+                }
+            ]
+        },
+		{
+            "title":"Arnheim Online",
+			"role":"Co-Founder, Developer",
+			"img":"assets/img/arnheim.gif",
+            "description":"MMORPG based in Viking era. Hardcore mechanics, instances, bosses and legendary items.",
+            "links":
+            [
+                { 
+                    "title":"Kickstarter", 
+                    "link":"https://www.kickstarter.com/projects/arnheim/arnheim?fbclid=IwAR1Lwfw_OqTrdfzq5_0hWgNEdt9A_my89d07efK36pQKkYEiOPohFu-KdlQ"
+                },
+                { 
+                    "title":"YouTube", 
+                    "link":"https://www.youtube.com/watch?v=IM07X1Ql0LA"
+                },
+                { 
+                    "title":"Twitter", 
+                    "link":"https://twitter.com/arnheimonline"
+                }
+            ]
+        },
+		{
+            "title":"Arnmoire Online",
+			"role":"One-Man Army",
+			"img":"assets/img/arnmoire1.gif",
+            "description":"Old-School MMORPG based in Fantasy World of Arnmoire. Game focused on Grinding and teaming up.",
+            "links":
+            [
+                
+                { 
+                    "title":"Gameplay Video", 
+                    "link":"https://www.youtube.com/watch?v=1BBfKSsspYc"
+                }
+            ]
+        },
+		{
+            "title":"Path of Unity",
+			"role":"One-Man Army",
+			"img":"https://raw.githubusercontent.com/devlanger/path-of-unity/master/Media/pou3.gif",
+            "description":"Hack n Slash inspired by Path of Exile Prototype.",
+            "links":
+            [
+                { 
+                    "title":"GitHub", 
+                    "link":"https://github.com/devlanger/path-of-unity"
+                }
+            ]
+        },
+		{
+            "title":"Ninja Tsugi",
+			"role":"One-Man Army",
+			"img":"assets/img/ninjatsugi.gif",
+            "description":"Fast Paced Multiplayer Online PvP game in Japanese Ninja Culture World.",
+            "links":
+            [
+				{ 
+                    "title":"Itch.io", 
+                    "link":"https://korseus.itch.io/ninja-tsugi"
+                },
+                { 
+                    "title":"Gameplay Video", 
+                    "link":"https://www.youtube.com/watch?v=9d_iB4KlzcI"
+                },
+				{ 
+                    "title":"Twitter", 
+                    "link":"https://twitter.com/NinjaTsugi"
+                }   
+                
+            ]
+        },
+        {
+            "title":"Ninja Tensei",
+			"role":"Founder, Developer",
+			"img":"assets/img/ninja_tensei1.gif",
+            "description":"Fast Paced Multiplayer Online PvP game in Japanese Ninja Culture World.",
+            "links":
+            [
+                { 
+                    "title":"YouTube", 
+                    "link":"https://www.youtube.com/watch?v=3BEwa6fDI-s"
+                },
+				{ 
+                    "title":"IndieDB", 
+                    "link":"https://www.indiedb.com/games/ninja-tensei/"
+                }   
+                
+            ]
+        },
+		{
+            "title":"Abstract Breaker",
+			"role":"One-Man Army",
+			"img":"assets/img/abstract_breaker1.gif",
+            "description":"Arcade game inspired by block breaker. Added modification of blocks on hit and multiple levels created with editor.",
+            "links":
+            [
+                { 
+                    "title":"GitHub Repository", 
+                    "link":"https://github.com/Devdood/Abstract-Breaker"
+                },
+                { 
+                    "title":"YouTube", 
+                    "link":"https://www.youtube.com/watch?v=-JvlkST7wvk"
+                },
+                { 
+                    "title":"Kongregate(Play Now)", 
+                    "link":"https://www.kongregate.com/games/korseus/abstract-breaker"
+                }
+            ]
+        },
+		{
+            "title":"Aliens Invasion",
+			"role":"One-Man Army",
+			"img":"assets/img/aliens_invasion1.gif",
+            "description":"A space shooter game with scores and single level.",
+            "links":
+            [
+                { 
+                    "title":"YouTube", 
+                    "link":"https://www.youtube.com/watch?v=Yifrbq4eJZM"
+                },
+                { 
+                    "title":"Kongregate(Play Now)", 
+                    "link":"https://www.kongregate.com/games/korseus/aliens-invasion/"
+                }
+            ]
+        },
+		{
+            "title":"Zoomz",
+			"role":"One-Man Army",
+			"img":"/assets/img/zoomz1.gif",
+            "description":"A 3D FPS inspired by Serious Sam series.",
+            "links":
+            [
+                { 
+                    "title":"GitHub Repository", 
+                    "link":"https://github.com/Devdood/zoomz"
+                }
+            ]
+        }
+    ]
+}

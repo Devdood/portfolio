@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Piotr Langer - Portfolio</title>
+		<link rel="stylesheet" href="css/style.css">
+        <script src="https://kit.fontawesome.com/646cf4fe16.js" crossorigin="anonymous"></script>
+		<script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/main.js"></script>
+	</head>
+	<body>
+		<div id="main">
+			<div class="container">
+				<div id="header">
+					<div>
+						<p class="header-note">Piotr Langer .NET Developer</p>
+						<a class="github-link" href="#cv">CV</a>
+						<a class="github-link" href="#contact">Contact</a>
+						<!--<a class="github-link" href="#experience">Experience</a>-->
+						<a class="github-link" href="#projects">Portfolio</a>
+						<a class="github-link" href="#skills">Skills</a>
+						<a class="github-link" href="#about">About</a>
+					</div>
+				</div>
+				<div id="about" class="container">
+					<div class="section">
+						<div class="profile-container">
+						<img class="profile-icon shadowed" src="assets/img/me1.png"/>
+						</div>
+						<div class="about-description">
+						<h2>About Me</h2>
+
+						<p>My name is Piotr and my journey with programming started in 2013.</p>
+
+						<p>From 2013 to 2021 I was learning C# Software and Game development wise.</p>
+
+						<p>I was always fascinated with high-level architecture of projects and implementation. </p>
+					</div>
+					<div class="section" id="social-links">
+						<ul class="ul-horizontal">
+							<li><a href="https://www.linkedin.com/in/piotr-langer-401638144/"><i style="font-size: 45px; margin-right: 30px;" class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://github.com/devlanger"><i style="font-size: 45px; margin-right: 30px;" class="fab fa-github"></i></a></li>
+							<li><a href="https://www.youtube.com/channel/UCz56Dlongfq0hajvZP2gz0Q"><i style="font-size: 45px; margin-right: 30px;" class="fab fa-youtube"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<div id="content" class="container">
+			<div id="skills">
+                <div class="category-label">
+					My Skills
+				</div>
+				<div class="category-sub-label">
+					Technology I have used for variety of projects.
+				</div>
+				<div id="skill-box" class="shadowed">
+					<h3>Core Skills</h3>
+					<ul><li>
+						<h4>C#</h4> 
+						.NET Core, ASP.NET MVC(+EntityFramework), WPF, WinForms, Xamarin Basics
+					</li><li>
+						<h4>Unity</h4> 
+						Extensive Knowledge of API, Published titles, Rapid Prototyping, Clean Code and SOLID Principles
+					</li><li>
+						<h4>Source Control</h4>
+						Git (GitHub, GitLab), Source Tree Client
+					</li><li>
+						<h4>Server Side</h4>
+						Debian, Docker
+					</li><li>
+						<h4>CI/CD</h4> 
+						Jenkins
+					</li><li>
+						<h4>Databases</h4> 
+						MySQL (MariaDB, MSSQL), NoSQL (MongoDB) | DBeaver / MySQL Workbench / MongoDB Community Client
+					</li><li>
+						<h4>Data Formats</h4> 
+						JSON, XML, YAML, ini
+					</li></ul>
+					<h3>Other</h3>
+					<ul><li> 
+						PHP, HTML(+Canvas), JavaScript(+jQuery, React Basics), CSS, WordPress
+					</li></ul>
+				</div>
+			</div>
+			<div id="projects">
+                <div class="category-label">
+					Portfolio
+				</div>
+				<div class="category-sub-label">
+					Here are projects that I've been working on. If you want to know the details, contact me!
+				</div>
+				
+				<div class="section">
+					<ul id="projects-list" class="projects-list">
+					</ul>
+				</div>
+				<!--
+				<div id="experience">
+					<div class="category-label">
+						Experience
+					</div>
+					<div class="category-sub-label">
+						My experience path since the beggining:
+					</div>
+
+					<div class="experience-box shadowed"></div>
+					<div class="experience-box shadowed"></div>
+					<div class="experience-box shadowed"></div>
+				</div>
+				-->
+			</div>
+			<div id="contact">
+					<div class="category-label">
+						Contact Me
+					</div>
+					<div class="category-sub-label">
+						If you have any questions, contact me!
+					</div>
+					<div class="contact-grid">
+						<div class="contact-box shadowed">
+							<ul>
+								<li><i class="fas fa-map-marker-alt"></i><p>Wroclaw, Poland</p></li>
+								<li><i class="fas fa-phone"></i><p>(+48) 669 228 092</p></li>
+								<li><i class="fas fa-envelope"></i><p>langer.msg@gmail.com</p></li>
+							</ul>
+						</div>
+						<div class="shadowed">
+							<div class="form-container">
+								<form action="action_page.php">
+								<div class="row">
+									<div class="col-75">
+									<input type="text" id="fname" name="firstname" placeholder="Your email..">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-75">
+									<input type="text" id="lname" name="lastname" placeholder="Title..">
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-75">
+									<textarea id="subject" name="subject" placeholder="Your message.." style="height:200px"></textarea>
+									</div>
+								</div>
+								<div class="row">
+									<input type="submit" value="Submit">
+								</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="cv">
+					<div class="category-label">
+							CV
+					</div>
+					<div class="category-sub-label">
+						Press button below to download my actual CV.
+					</div>
+					<div class="section">
+						<a class="button" href="assets/PiotrLangerCV2021.pdf"><i class="fa fa-download"></i> Download</a>
+					</div>
+				</div>
+			</div>
+			<footer>
+				<div class="section" id="social-links">
+					<ul class="ul-horizontal">
+						<li><a href="https://www.linkedin.com/in/piotr-langer-401638144/"><i style="font-size: 35px;" class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://github.com/devlanger"><i style="font-size: 35px;" class="fab fa-github"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UCz56Dlongfq0hajvZP2gz0Q"><i style="font-size: 35px;" class="fab fa-youtube"></i></a></li>
+					</ul>
+				</div>
+				<p>
+					Designed and Coded by Piotr Langer. 
+				</p>
+				<p>
+					Copyright &#169; 2020 Piotr Langer | All rights reserved.
+				</p>
+<!---->
+			</footer>
+	</body>
+</html>
